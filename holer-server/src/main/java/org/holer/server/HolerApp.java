@@ -20,7 +20,9 @@ import org.holer.server.constant.ServerConst;
 import org.holer.server.container.ServerContainer;
 import org.holer.server.util.ServerUtil;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.annotation.EnableScheduling;
 

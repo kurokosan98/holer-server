@@ -7,11 +7,11 @@ server:
 spring:
   datasource:
     username: root
-    password: 123456
+    password: Admin123...
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/holer?createDatabaseIfNotExist=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://192.168.2.19:3306/holer?createDatabaseIfNotExist=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     platform: mysql
-    #schema: classpath:conf/holer-schema.sql
+#    schema: classpath:conf/holer-schema.sql
     data: classpath:conf/holer-data.sql
     initialization-mode: always
     continue-on-error: false
@@ -40,6 +40,6 @@ holer:
     #bin: /usr/sbin
     #conf: /etc/nginx
     #home: /usr/local/nginx
-    home: C:/nginx
+    home: D:\develop\nginx-1.25.3
   license:
     serialno: 
